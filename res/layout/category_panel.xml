@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seriesListPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignTop="@+id/home_layout"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course_category" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/seriesList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp"
+        android:scrollingCache="false"
+        android:stackFromBottom="false"
+        android:transcriptMode="normal" >
+    </ListView>
+
+</LinearLayout>

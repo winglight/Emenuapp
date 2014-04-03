@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:gravity="left"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+                    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/server_url"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/urlTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:inputType="textUri"
+                android:hint="/sdcard/emenu/"
+                >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:visibility="gone" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/passwordTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:text="" 
+                android:visibility="gone">
+            </EditText>
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save" 
+                android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginRight="10dp"
+                    >
+            </Button>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_shortcut"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shortcutNameTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:inputType="textUri"
+                >
+
+                <requestFocus />
+            </EditText>
+
+
+            <Button
+                android:id="@+id/saveShortcutBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_shortcut" 
+                android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginRight="10dp"
+                    >
+            </Button>
+
+
+    
+
+</LinearLayout>

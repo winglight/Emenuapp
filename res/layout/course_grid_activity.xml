@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical" >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gridPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+    </android.support.v4.view.ViewPager>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:background="@android:color/darker_gray">
+    <ImageView 
+        android:id="@+id/previousBtn"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_previous_item"
+            android:paddingRight="30dp"
+        ></ImageView>
+        <TextView
+            android:id="@+id/pageLbl"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#CC3300"
+            >
+
+        </TextView>
+	<ImageView 
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_next_item"
+            android:paddingLeft="30dp"
+        ></ImageView>
+        
+
+    </LinearLayout>
+
+</FrameLayout>

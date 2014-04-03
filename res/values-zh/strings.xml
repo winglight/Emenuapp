@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电子菜单</string>
+    <string name="course_category">菜品类别</string>
+    <string name="alreadyFirstPost">已经是第一页菜单...</string>
+    <string name="alreadyLastPost">已经是最后一页菜单...</string>
+    <string name="no_network_connection_toast">无网络连接...</string>
+    <string name="password">密码</string>
+    <string name="server_url">菜谱数据库下载URL</string>
+    <string name="save">保存并下载</string>
+    <string name="saveSuccess">保存下载成功!</string>
+    <string name="saveFailed">密码错误,保存失败!</string>
+    <string name="sure_quit_app">再按一次退出程序</string>
+    <string name="settings">设置</string>
+    <string name="all">全部</string>
+    <string name="set_shortcut">快捷方式名字</string>
+    <string name="save_shortcut">保存并创建快捷方式</string>
+    <string name="auth_save">保存授权码</string>
+    <string name="auth_title">未授权版本</string>
+    <string name="auth_input">请输入授权码(ID:%1$s):</string>
+    <string name="auth_quit">退出</string>
+    
+	<string-array name="categories">
+	    <item >全部</item>
+	    <item >招牌菜</item>
+	    <item >荤菜</item>
+	</string-array>
+</resources>

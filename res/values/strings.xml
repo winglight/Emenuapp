@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EMenu</string>
+    <string name="course_category">Course Category</string>
+    <string name="alreadyFirstPost">Already first page...</string>
+    <string name="alreadyLastPost">Already last page...</string>
+    <string name="no_network_connection_toast">No network connection...</string>
+    <string name="password">Password</string>
+    <string name="all">All</string>
+    <string name="server_url">URL for Course DB</string>
+    <string name="save">Save and download</string>
+    <string name="saveSuccess">Success!</string>
+    <string name="saveFailed">Password is invalid!</string>
+    <string name="sure_quit_app">Press again to quit the app</string>
+    <string name="settings">Setting</string>
+    <string name="set_shortcut">Shortcut Name</string>
+    <string name="save_shortcut">Save Name</string>
+    <string name="auth_save">Save Code</string>
+    <string name="auth_title">Not Authorized App</string>
+    <string name="auth_input">Please input authorize code(ID:%1$s):</string>
+    <string name="auth_quit">Quit</string>
+    
+	<string-array name="categories">
+	    <item >All</item>
+	    <item >Advised</item>
+	    <item >Meat</item>
+	</string-array>
+</resources>
